@@ -75,3 +75,28 @@ body {
 }
 
 
+/* ===== HERO ===== */
+section#inicio {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+section#inicio h1 {
+  font-family: var(--f-display);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 900;
+  color: var(--text);
+  text-shadow: 0 0 30px rgba(0, 255, 156, 0.4);
+  margin-bottom: 1rem;
+}
+
+section#inicio p {
+  font-size: 1.3rem;
+  color: var(--text-muted);
+  max-width: 600px;
+}
