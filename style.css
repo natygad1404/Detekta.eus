@@ -23,3 +23,55 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+
+/* ===== NAVBAR ===== */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(10, 22, 40, 0.9);
+  border-bottom: 1px solid rgba(0, 255, 156, 0.15);
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: var(--f-display);
+  font-size: 1.3rem;
+  color: var(--neon);
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--neon);
+}
+
+
+/* para evitar que se tape el hero  */
+body {
+  padding-top: 70px;
+}
+
+
