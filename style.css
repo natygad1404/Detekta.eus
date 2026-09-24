@@ -130,4 +130,58 @@ section#inicio p {
 
 
 
+/* ===== JUEGO ===== */
+.game-box {
+  max-width: 500px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  background: rgba(13, 26, 54, 0.7);
+  border: 1px solid rgba(0, 255, 156, 0.2);
+  border-radius: 12px;
+}
 
+.game-round {
+  font-family: var(--f-display);
+  color: var(--cyan);
+  margin-bottom: 1.5rem;
+}
+
+.game-images {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.game-option {
+  flex: 1;
+  padding: 2rem 1rem;
+  background: rgba(16, 32, 64, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: var(--f-body);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.game-option:hover {
+  border-color: var(--neon);
+  box-shadow: 0 0 20px rgba(0, 255, 156, 0.3);
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  background: var(--neon);
+  color: var(--bg);
+  border: none;
+  border-radius: 8px;
+  font-family: var(--f-display);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
