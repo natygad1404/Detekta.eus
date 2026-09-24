@@ -226,3 +226,57 @@ section#inicio p {
   background: rgba(13, 26, 54, 0.7);
   border: 1px solid rgba(0, 255, 156, 0.2);
 }
+
+/* ===== GALERÍA ===== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 2rem auto 0;
+}
+
+.gallery-card {
+  position: relative;
+}
+
+.gallery-img {
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--f-display);
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.gallery-real {
+  background: linear-gradient(135deg, rgba(0,255,156,0.15), rgba(13,26,54,0.9));
+  border: 1px solid rgba(0, 255, 156, 0.3);
+}
+
+.gallery-fake {
+  background: linear-gradient(135deg, rgba(255,77,109,0.15), rgba(13,26,54,0.9));
+  border: 1px solid rgba(255, 77, 109, 0.3);
+}
+
+.gallery-tag {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.tag-real {
+  background: rgba(0, 255, 156, 0.15);
+  color: var(--neon);
+}
+
+.tag-fake {
+  background: rgba(255, 77, 109, 0.15);
+  color: #ff4d6d;
+}
