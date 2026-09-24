@@ -100,3 +100,28 @@ section#inicio p {
   color: var(--text-muted);
   max-width: 600px;
 }
+
+
+
+/* ===== SECCIONES GENERALES ===== */
+.sec {
+  padding: 5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sec h2 {
+  font-family: var(--f-display);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: var(--neon);
+  margin-bottom: 1.5rem;
+}
+
+.sec p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+
