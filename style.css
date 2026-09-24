@@ -1,0 +1,25 @@
+:root {
+  --bg: #0a1628;
+  --neon: #00ff9c;
+  --cyan: #00d4ff;
+  --text: #dce8ff;
+  --text-muted: #7a8fab;
+  --f-display: 'Orbitron', sans-serif;
+  --f-body: 'Rajdhani', sans-serif;
+}
+
+/* Reset y estilos base del body */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
